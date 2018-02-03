@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html>
 <head>
   <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width", initial-scale=1>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
-  <link rel="icon" href="../Images/grant-chirpus-student-favicon.png" type="image/gif" sizes="16x16">
-  <title>chirpus inc.</title>
+  <title>Code Challenge Week 2</title>
 </head>
+  <html>
   <body>
-    <nav>
-      <div class="company-nav">
-        <a href="#">Grant's Dog Walking!</a>
+    <div id="signInForm">
+      <div id="welcomeBack">
+        <p>Welcome Back</p>
       </div>
-      <div class="main-nav">
-        <a href="#">Home</a>
-        <a href="#">Prices</a>
-        <a href="#">Contact Us</a>
-      </div>
-    </nav>
+      <form>
+        <h1>Hello, friend.</h1>
+        <input type=text id="emailInput" placeholder="email"/><br>
+        <input type=text id="passwordInput" placeholder="password"/><br>
+        <button type=button id="submitInput">SIGN IN</button><br>
+        <p>Having trouble? <a href="">Recover your password</a>
+      </form>
+    </div>
+    <div id="welcomeMessage">
+      <h2>Welcome, Grant Chirpus!</h2>
+    </div>
+    <div id="errorMessage">
+      <h2>Sign-in credentials are incorrect.</h2>
+      <button type=button id="tryAgain">TRY AGAIN</button>
+    </div>
   </body>
 </html>
+<script src="script.js"></script>
